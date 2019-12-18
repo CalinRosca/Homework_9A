@@ -1,0 +1,30 @@
+
+public class brad_9A{
+
+    public static void main(String args[]){
+    char c='^';
+    char a='*';
+    char b='•';
+    char e='|';
+    char d='$';
+    System.out.format("%9c%n",c);
+    System.out.format("%8c%c%c%n",b,d,a);
+    System.out.format("%7c%c%c%c%c%n",b,d,d,d,a);
+    System.out.format("%6c%c%c%c%c%c%c%n",b,d,d,d,d,d,a);
+    System.out.format("%5c%c%c%c%c%c%c%c%c%n",b,d,d,d,d,d,d,d,a);
+    System.out.format("%4c%c%c%c%c%c%c%c%c%c%c%n",b,d,d,d,d,d,d,d,d,d,a);
+    System.out.format("%9c%n",e);
+    System.out.println("Merry Christmas!!!");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    }
+}
