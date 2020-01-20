@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+
+public class HelloWorld{
+
+    public static void main(String args[]){
+    Scanner tastatura=new Scanner(System.in);
+    System.out.println("min:");
+     System.out.println("h:");
+     
+     int a=tastatura.nextInt();
+     int b=tastatura.nextInt();
+     int c=(a*60)+b;
+     System.out.println("total min="+c);
+     tastatura.close();
+     
+    }
+}
+
+
+import java.util.Scanner;
+
+public class HelloWorld{
+
+    public static void main(String args[]){
+    Scanner tastatura=new Scanner(System.in);
+    System.out.println("cateta1:");
+    System.out.println("cateta2:");
+    int m=tastatura.nextInt();
+    int n=tastatura.nextInt();
+    int p=(m*m)+(n*n);
+    System.out.println("ipotenuza:"+Math.sqrt(p));
+    tastatura.close();
+
+
+
+    }
+}
+
+import java.util.Scanner;
+
+public class HelloWorld{
+
+    public static void main(String args[]){
+    Scanner tastatura=new Scanner(System.in);
+    System.out.println("cantitatea de fructe uscate:");
+    /*
+    int p=25%
+    */
+    double n=tastatura.nextDouble();
+    double b=(n/3)*4.0;
+    System.out.println("cantitatea de fructe necesara:"+b);
+    tastatura.close();
+
+    }
+}
+
