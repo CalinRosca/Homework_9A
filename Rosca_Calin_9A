@@ -1,0 +1,25 @@
+
+
+   import java.util.Scanner;
+public class Rosca_Calin_9A{
+    public static void main(String args[]){
+      Scanner tastatura=new Scanner(System.in);
+	   int n=tastatura.nextInt();
+	  double S=0;
+      double i=1;
+	  for(;i<=n;i++)
+	  {
+	  	double m=i/(i+1);
+	  	S=m+S;
+	}   
+	   System.out.println("SUMA="+S);
+/*
+while(i<=n)
+{
+I++;
+}
+*/  
+		tastatura.close();
+    }
+}
+    
